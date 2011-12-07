@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+
+    <record id="ean13_barcode_product_normal_form_view" model="ir.ui.view">
+      <field name="name">ean13_barcode_product_normal_form</field>
+      <field name="model">product.product</field>
+      <field name="type">form</field>
+      <field name="inherit_id" ref="product.product_normal_form_view" />
+      <field name="arch" type="xml">
+        <field name="ean13" position="replace">
+          <field name="ean13" groups="base.group_extended" invisible="True" />
+          <field name="barcode" groups="base.group_extended" />
+        </field>
+      </field>
+    </record>
+
+  </data>
+</openerp>
