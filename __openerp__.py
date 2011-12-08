@@ -4,10 +4,10 @@
     "name": "EAN13 to Barcode",
     "version": "0.1",
     "author": "Proge",
-    "category": "Account",
+    "category": "Product",
     "website": "http://proge.com.br",
     "description": """
-    Module to hide the EAN13 field and let any barcode type to be stored 
+    Module to hide the EAN13 field and let any barcode type to be stored
     """,
     'depends': ['product'],
     'init_xml': [],
