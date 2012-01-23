@@ -2,7 +2,7 @@
 
 {
     "name": "EAN13 to Barcode",
-    "version": "0.1",
+    "version": "0.2",
     "author": "Proge",
     "category": "Product",
     "website": "http://proge.com.br",

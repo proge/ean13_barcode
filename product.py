@@ -7,7 +7,7 @@ from tools.translate import _
 class product_product(osv.osv):
     _inherit = 'product.product'
     _columns = {
-        'barcode': fields.char(_('Barcode'), size=13),
+        'barcode': fields.char(_('Barcode'), size=20),
         }
 
 product_product()
